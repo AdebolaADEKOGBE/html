@@ -4,23 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My profolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Welcome to my profolio</h1>
+  <h1 class="bigtext">Welcome to my profolio</h1>
   <header>
+
+    <div class="buttons">
+    <button class="signin">Sign in</button>
+    <button class="signout">Sign out</button>
+</div>
+
     <nav>
-      <p>Home</p>
-      <p>About</p>
-      <p>About</p>
-      <p>Work</p>
-      <p>Resume</p>
-      <p>Contact</p>
+      <ul style="display: inline;">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+      <li>Details</li>
+      </ul>
     </nav>
   </header>
+
+  <div class="iframe">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/kUMe1FH4CHE?si=2QaRYgQELyreMlvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  
   <section id="About">
-    <h2>About me</h2>
-    <p>My name is Adebola Adekogbe. I am a 24 years old software developer with 5 years of experience</p>
+    <h2 class="aboutme">About me</h2>
+    <p class="info">My name is <span class="name">Adebola Adekogbe</span>. I am a 24 years old software developer with 5 years of experience</p>
   </section>
   <section id="Work">
     <h2>My Work</h2>
@@ -58,16 +72,16 @@
 
 </section>
 
-<section id="Contact">
+<section id="contact">
   <h3>How to Contact me</h3>
   <form>
-    <label for="name">Name:</label>
+    <label for="name">Name</label><br>
     <input type="text" id="name" name="name"/><br>
 
-    <label for="email">Email:</label>
+    <label for="email">Email</label><br>
     <input type="text" id="email" name="email"/><br>
 
-    <label for="message">Message:</label>
+    <label for="message">Message</label><br>
     <input type="message" id="message" name="message"/><br>
 
   </form>  

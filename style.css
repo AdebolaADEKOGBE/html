@@ -1,0 +1,75 @@
+body {
+  background-color: grey;
+  font-family: "Roboto", sans-serif;
+}
+
+.bigtext {
+  color: rgb(197, 39, 184);
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.name {
+  font-weight: 700;
+  color: white;
+}
+
+.aboutme {
+  text-align: center;
+  color: blanchedalmond;
+}
+
+.bigtext{
+  font-size: 15px;
+  background-color: white;
+  padding: 20px;
+  margin: 0 5px 0 0;
+  border: 0;
+
+}
+
+.signout {
+  font-size: 15px;
+  background-color: rgb(155, 24, 24);
+  padding: 20px;
+  margin: 0 5px 0 0;
+  border: 0;
+  color: red;
+  border: 1px solid red;
+}
+
+.buttons {
+  text-align: right;
+}
+
+
+.buttons:hover {
+background-color: rgb(10, 10, 7);
+transition: .3 ease all;
+transform: translateY(-5px);
+}
+.info {
+  text-align: center;
+}
+
+.iframe {
+  text-align: left;
+}
+
+#contact {
+  text-align: left;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid white;
+  margin: 10px 0;
+}
+
+.div1{
+  color: rgb(13, 13, 13);
+  font-style:inherit;
+  text-align: left;
+}
+
